@@ -1169,7 +1169,7 @@
     (uuid fe1800ed-f916-4981-bbc7-bf098d214e9d)
   )
 
-  (text_box "R9 = 10 Om, R11 = 15kOm, C7 = 300 or 500 pF, L1 = sound speaker, you must solder details directly to speaker. R1, R3, R5, R7, R21, R23, R16, R18 = 33 kOm, R2, R6, R17, R22 = 15 kOm, C2, C5, C15, C18 = 220 pF, C1, C3, C4, C6, C14, C16, C19, C17 = 100 pF.\nR19, R24, R33, R32, R26, R25 = 10MOm, R20, R29, R30, R31, R28, R27 = ~7-8 Om C23, C24 = 33-56 pF,  C12, C13 = 1 mkF. C20, C22, C11, C9 = 100 pF. C18, C15, C21, C10 = 220 pF.\nR12, R14, R4, R15 = 33 kOm, R8, R13 = 15 kOm, Or if you use 224 k instead 1mkF you get cool field(eddy currents also called Foucault's ) shield on ground with about 224v current and 0.04 A.\n\nAll capasitors must be closed by resistors"
+  (text_box "R9 = 10 Om, R11 = 15kOm, C7 = 300 or 500 pF, L1 = sound speaker, you must solder details directly to speaker. R1, R3, R5, R7, R21, R23, R16, R18 = 33 kOm, R2, R6, R17, R22 = 15 kOm, C2, C5, C15, C18 = 220 nF, C1, C3, C4, C6, C14, C16, C19, C17 = 100 nF.\nR19, R24, R33, R32, R26, R25 = 10MOm, R20, R29, R30, R31, R28, R27 = ~7-8 Om C23, C24 = 33-56 pF,  C12, C13 = 100 nF. C20, C22, C11, C9 = 100 nF. C18, C15, C21, C10 = 220 nF.\nR12, R14, R4, R15 = 33 kOm, R8, R13 = 15 kOm. Eddy currents on ground.\n\nAll capasitors must be closed by resistors"
     (at 100.33 127 0) (size 74.93 68.58)
     (stroke (width 0) (type default))
     (fill (type none))
@@ -1193,7 +1193,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 7fecccb9-6113-4192-90c2-0b485e3f2091)
   )
-  (text "7" (at 271.78 194.31 0)
+  (text "8" (at 271.78 194.31 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 9b63d91f-b339-4aee-b138-f1c18109169f)
   )
