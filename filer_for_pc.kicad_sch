@@ -8907,8 +8907,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "I use ~70 turns of wire but same coil as \"emmiter\" beter"
-			(at 98.806 113.538 0)
+		(property "Value" "I use ~70 turns of wire on ferrite"
+			(at 115.57 111.506 0)
 			(effects
 				(font
 					(size 1.27 1.27)
