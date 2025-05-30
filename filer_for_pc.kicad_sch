@@ -2608,6 +2608,12 @@
 		(uuid "050e704d-5950-4769-a009-7eea68dab2fe")
 	)
 	(junction
+		(at 251.46 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "06fba2f4-c357-4c86-9af9-94adb4257676")
+	)
+	(junction
 		(at 40.64 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2672,12 +2678,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2231d164-aca4-4789-9a7c-e8042e11cd1a")
-	)
-	(junction
-		(at 247.65 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2349fdad-0db0-46c9-8888-c7feba1552f6")
 	)
 	(junction
 		(at 90.17 125.73)
@@ -2794,12 +2794,6 @@
 		(uuid "4d8b03f3-e5fd-4e06-9026-b6c936936434")
 	)
 	(junction
-		(at 236.22 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4e5b9b16-17ff-4719-ae07-81dc1c6e5180")
-	)
-	(junction
 		(at 115.57 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2846,6 +2840,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "59f9b871-7707-4b7c-9816-f8359d31059e")
+	)
+	(junction
+		(at 251.46 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "656b18b2-cb80-4a5c-9ea0-25d9e332cff7")
 	)
 	(junction
 		(at 20.32 116.84)
@@ -3553,7 +3553,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 93.98) (xy 247.65 95.25)
+			(xy 247.65 83.82) (xy 247.65 95.25)
 		)
 		(stroke
 			(width 0)
@@ -3933,17 +3933,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 83.82) (xy 247.65 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48bf03e2-9ad9-43b1-8413-798a6c88076a")
-	)
-	(wire
-		(pts
-			(xy 247.65 71.12) (xy 256.54 71.12)
+			(xy 247.65 71.12) (xy 251.46 71.12)
 		)
 		(stroke
 			(width 0)
@@ -4563,7 +4553,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 63.5) (xy 247.65 63.5)
+			(xy 209.55 63.5) (xy 247.65 63.5)
 		)
 		(stroke
 			(width 0)
@@ -4690,6 +4680,16 @@
 			(type default)
 		)
 		(uuid "96d88e1f-0dd1-403d-961d-578eb8c24c58")
+	)
+	(wire
+		(pts
+			(xy 237.49 62.23) (xy 251.46 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96dbad19-a37e-4a6e-87dd-76f43cd482c9")
 	)
 	(wire
 		(pts
@@ -4953,6 +4953,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 62.23) (xy 251.46 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaa5c67f-9e59-4849-8ca3-fa536c144827")
+	)
+	(wire
+		(pts
 			(xy 66.04 91.44) (xy 66.04 92.71)
 		)
 		(stroke
@@ -4983,7 +4993,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 71.12) (xy 243.84 71.12)
+			(xy 237.49 73.66) (xy 243.84 73.66)
 		)
 		(stroke
 			(width 0)
@@ -5063,16 +5073,6 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 63.5) (xy 236.22 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb053064-a83d-46dc-a1d3-1c1690720aaf")
-	)
-	(wire
-		(pts
 			(xy 236.22 128.27) (xy 247.65 128.27)
 		)
 		(stroke
@@ -5090,6 +5090,16 @@
 			(type default)
 		)
 		(uuid "bb9a051e-9509-492b-9335-85003e4de33b")
+	)
+	(wire
+		(pts
+			(xy 237.49 62.23) (xy 237.49 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbb67b68-2bcb-4a55-9830-2b00ff4b4241")
 	)
 	(wire
 		(pts
@@ -5233,7 +5243,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 71.12) (xy 243.84 90.17)
+			(xy 243.84 73.66) (xy 243.84 90.17)
 		)
 		(stroke
 			(width 0)
@@ -5430,6 +5440,16 @@
 			(type default)
 		)
 		(uuid "dbe8406d-6cb5-40a0-9081-2bd401a387ca")
+	)
+	(wire
+		(pts
+			(xy 251.46 93.98) (xy 251.46 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc680d17-6ee4-4e37-8f15-3ccdb7f09d2c")
 	)
 	(wire
 		(pts
@@ -5703,6 +5723,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 93.98) (xy 251.46 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f20f6a04-f428-4779-a112-8ef9c22a12ac")
+	)
+	(wire
+		(pts
 			(xy 135.89 171.45) (xy 149.86 171.45)
 		)
 		(stroke
@@ -5793,13 +5823,13 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 93.98) (xy 247.65 93.98)
+			(xy 251.46 71.12) (xy 256.54 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fb10ece2-0c1f-47e5-8c12-eced0bf30700")
+		(uuid "f96c5d44-5d49-4800-9b3e-5bddf650a776")
 	)
 	(wire
 		(pts
@@ -11023,7 +11053,7 @@
 		(lib_id "Graphic:SYM_Radio_Waves_Large")
 		(at 271.78 132.08 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board no)
 		(dnp no)
@@ -11066,15 +11096,6 @@
 			)
 		)
 		(property "Description" "Radio waves warning symbol, large"
-			(at 271.78 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 271.78 132.08 0)
 			(effects
 				(font
@@ -13451,7 +13472,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 236.22 67.31 0)
+		(at 237.49 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13460,7 +13481,7 @@
 		(fields_autoplaced yes)
 		(uuid "edce3c81-5230-4e24-8fde-102288b7a7c1")
 		(property "Reference" "R12"
-			(at 238.76 66.0399 0)
+			(at 240.03 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13469,7 +13490,7 @@
 			)
 		)
 		(property "Value" "~1.8 kOm"
-			(at 238.76 68.5799 0)
+			(at 240.03 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13478,7 +13499,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 234.442 67.31 90)
+			(at 235.712 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13487,7 +13508,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 236.22 67.31 0)
+			(at 237.49 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13496,7 +13517,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 236.22 67.31 0)
+			(at 237.49 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
