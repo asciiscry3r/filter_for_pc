@@ -262,6 +262,7 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
+      "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -309,8 +310,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": null,
-    "netclass_assignments": null,
+    "net_colors": {},
+    "netclass_assignments": {},
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -449,7 +450,7 @@
         "uuid": "cdde10a9-1f5d-4493-ba10-a349138f6d4d"
       }
     ],
-    "used_designators": "R13-14,C71-73",
+    "used_designators": "C71-73,R13-14",
     "variants": []
   },
   "sheets": [
